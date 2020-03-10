@@ -1,0 +1,61 @@
+.mainer {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.block-features {
+    background-color: #ffffff;
+}
+
+.block-features .wrapper {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.block-features .cell {
+    flex-grow: 1;
+    padding: 56px 50px;
+}
+
+.block-features .icon {
+    width: 64px;
+    height: 64px;
+    background-color: #2a69a6;
+    margin: 0 auto 20px auto;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+
+.block-features .icon:hover {
+   background-color:white;
+   color:  #2a69a6;
+   transition-duration: 1s;
+   box-shadow: inset 0 0 0 2px #2a69a6;
+}
+
+.block-features img {vertical-align: middle;
+
+}
+
+.block-features .caption {
+    color: #1a0000;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0 0 23px 0;
+}
+
+.block-features .description {
+    color: #a78d8d;
+    text-align: center;
+    line-height: 20px;
+    font-size: 14px;
+}
+
